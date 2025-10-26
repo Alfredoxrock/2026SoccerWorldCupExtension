@@ -1,0 +1,9 @@
+{
+    "name": "icon-converter",
+    "version": "1.0.0",
+    "description": "Convert SVG icons to PNG for Chrome Web Store",
+    "private": true,
+    "dependencies": {
+        "sharp": "^0.33.0"
+    }
+}

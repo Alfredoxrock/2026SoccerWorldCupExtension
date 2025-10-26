@@ -1,0 +1,53 @@
+<!-- Promotional tile for Chrome Web Store: 440x280 -->
+<svg width="440" height="280" viewBox="0 0 440 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="promoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f3460;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ballGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d0d0d0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="440" height="280" fill="url(#promoBg)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="80" cy="70" r="60" fill="url(#ballGrad)" opacity="0.15"/>
+  <circle cx="380" cy="220" r="50" fill="#e94560" opacity="0.1"/>
+  
+  <!-- Main soccer ball -->
+  <circle cx="110" cy="140" r="50" fill="url(#ballGrad)"/>
+  <path d="M110,95 L122,108 L116,125 L104,125 L98,108 Z" fill="#1a1a2e"/>
+  <path d="M98,108 L85,113 L80,128 L92,138 L104,125 Z" fill="#1a1a2e" opacity="0.8"/>
+  <path d="M122,108 L135,113 L140,128 L128,138 L116,125 Z" fill="#1a1a2e" opacity="0.8"/>
+  
+  <!-- Title -->
+  <text x="220" y="100" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    World Cup 2026
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="220" y="135" font-family="Arial, sans-serif" font-size="22" fill="#e94560" text-anchor="middle">
+    Countdown Extension
+  </text>
+  
+  <!-- Countries -->
+  <text x="220" y="170" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">
+    🇺🇸 🇨🇦 🇲🇽
+  </text>
+  
+  <!-- Description -->
+  <text x="220" y="210" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.8)" text-anchor="middle">
+    Live countdown to the opening match
+  </text>
+  <text x="220" y="235" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.8)" text-anchor="middle">
+    June 11, 2026 • Mexico City
+  </text>
+  
+  <!-- Accent bar -->
+  <rect x="180" y="255" width="80" height="4" rx="2" fill="#e94560"/>
+</svg>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup 2026 Countdown</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <img src="icons/icon48.png" alt="World Cup" class="logo">
+                <h1>FIFA World Cup 2026</h1>
+            </div>
+            <p class="subtitle">🇺🇸 🇨🇦 🇲🇽</p>
+        </header>
+        <main>
+            <div id="countdown" class="countdown">
+                <div class="time-box">
+                    <div class="time-value" id="days">--</div>
+                    <div class="time-label">Days</div>
+                </div>
+                <div class="time-box">
+                    <div class="time-value" id="hours">--</div>
+                    <div class="time-label">Hours</div>
+                </div>
+                <div class="time-box">
+                    <div class="time-value" id="minutes">--</div>
+                    <div class="time-label">Minutes</div>
+                </div>
+                <div class="time-box">
+                    <div class="time-value" id="seconds">--</div>
+                    <div class="time-label">Seconds</div>
+                </div>
+            </div>
+
+            <div class="event-info">
+                <p class="kickoff">⚽ Opening Match: June 11, 2026</p>
+                <p class="venue">📍 Mexico City, Mexico</p>
+            </div>
+
+            <div id="message" class="message"></div>
+        </main>
+
+        <footer>
+            <button id="info-btn" class="info-button">Learn More</button>
+        </footer>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f3460;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ball" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e0e0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="128" height="128" rx="24" fill="url(#bg)"/>
+  
+  <!-- Soccer ball -->
+  <circle cx="64" cy="64" r="38" fill="url(#ball)"/>
+  
+  <!-- Pentagon pattern on ball -->
+  <path d="M64,32 L75,42 L70,56 L58,56 L53,42 Z" fill="#1a1a2e"/>
+  <path d="M53,42 L42,46 L38,58 L48,66 L58,56 Z" fill="#1a1a2e" opacity="0.8"/>
+  <path d="M75,42 L86,46 L90,58 L80,66 L70,56 Z" fill="#1a1a2e" opacity="0.8"/>
+  <path d="M48,66 L42,78 L52,88 L64,86 L64,72 Z" fill="#1a1a2e" opacity="0.9"/>
+  <path d="M80,66 L86,78 L76,88 L64,86 L64,72 Z" fill="#1a1a2e" opacity="0.9"/>
+  
+  <!-- Accent line -->
+  <rect x="10" y="108" width="108" height="6" rx="3" fill="#e94560"/>
+  
+  <!-- Year text -->
+  <text x="64" y="121" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">2026</text>
+</svg>

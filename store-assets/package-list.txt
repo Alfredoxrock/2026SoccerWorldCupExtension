@@ -1,0 +1,10 @@
+# Files to include in Chrome Web Store ZIP package
+manifest.json
+popup.html
+popup.css
+popup.js
+icons/icon16.png
+icons/icon32.png
+icons/icon48.png
+icons/icon128.png
+PRIVACY.md
