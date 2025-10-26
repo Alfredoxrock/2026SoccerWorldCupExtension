@@ -1,0 +1,28 @@
+## Node modules
+node_modules/
+**/node_modules/
+
+## Tools
+/tools/node_modules/
+
+## Generated archives and bundles
+store-ready.zip
+*.zip
+
+## Editor/OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+## Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Environment
+*.env
+
+## Others you may want to ignore
+# Dist/build folders
+dist/
+build/
